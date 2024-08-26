@@ -8,6 +8,8 @@ const ProductTab = () => {
         newPrice: [900, 1800, 2700]
     }
 
+    const Price = [ {oldPrice: 1000, newPrice: 900}, {oldPrice: 2000, newPrice: 1800}, {oldPrice: 3000, newPrice: 2700} ]
+
   return (
     <>
       <Product
@@ -15,18 +17,21 @@ const ProductTab = () => {
         description={description}
         indx={0}
         price={price}
+        Price={Price}
       />
         <Product
             title={titles[1]}
             description={description}
             indx={1}
             price={price}
+            Price={Price}
         />
         <Product
             title={titles[2]}
             description={description}
             indx={2}
             price={price}
+            Price={Price}
         />
     </>
   );

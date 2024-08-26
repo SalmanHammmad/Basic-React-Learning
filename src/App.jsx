@@ -4,6 +4,7 @@ import Button from './components/events/Button'
 import Form from './components/events/Form'
 import Counter from './components/hooks/Counter'
 import Ludo from './components/hooks/Ludo'
+import Formz from './components/form/Form'
 
 const App = () => {
   
@@ -11,9 +12,9 @@ const App = () => {
       <>
         {/* <ProductTab /> */}
         {/* <Button /> */}
-        {/* <Form />  */}
+        <Formz /> 
         {/* <Counter /> */}
-        <Ludo />
+        {/* <Ludo /> */}
       </>
       )
 }

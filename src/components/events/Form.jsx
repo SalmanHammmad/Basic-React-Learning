@@ -3,11 +3,7 @@ import React from 'react'
 const Form = () => {
 
     const handleSubmit = (event) => {
-        event.preventDefault()
-        console.log(event.target.name.value);
-        console.log(event.target.email.value);
-        console.log(event.target.password.value);
-        
+        event.preventDefault();
     }
 
   return (
