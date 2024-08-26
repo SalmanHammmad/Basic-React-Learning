@@ -1,0 +1,10 @@
+git init // to initialize git
+git status // to check your status
+
+git add .
+git commit -m "your msg"
+git push origin main
+
+git clone "repo url.git"
+
+git pull origin main  // to get latest version of the code
