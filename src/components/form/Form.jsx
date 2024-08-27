@@ -10,7 +10,10 @@ const Form = () => {
         setRegisteration({ name: '', Email: '' })
     }
 
-    const handleName = (e) => setRegisteration({ ...registeration, name: e.target.value })
+    const handleName = (e) => {
+      setRegisteration((prevreg) => ({...prevreg, name: e.target.value})
+      )
+    }
 
 
   return (
