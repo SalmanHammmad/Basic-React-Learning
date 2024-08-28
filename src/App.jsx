@@ -7,6 +7,7 @@ import Ludo from './components/hooks/Ludo'
 import Formz from './components/form/Form'
 import Todo from './components/todo/Todo'
 import Joke from './components/hooks/Joke'
+import Weather from './components/weatherApp/Weather'
 
 const App = () => {
   
@@ -17,8 +18,9 @@ const App = () => {
         {/* <Formz />  */}
         {/* <Counter /> */}
         {/* <Ludo /> */}
-        {/* <Todo/> */}
+        <Todo/>
         {/* <Joke /> */}
+        {/* <Weather /> */}
       </>
       )
 }
