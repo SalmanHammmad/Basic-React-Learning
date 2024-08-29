@@ -18,9 +18,9 @@ const App = () => {
         {/* <Formz />  */}
         {/* <Counter /> */}
         {/* <Ludo /> */}
-        <Todo/>
+        {/* <Todo/> */}
         {/* <Joke /> */}
-        {/* <Weather /> */}
+        <Weather />
       </>
       )
 }

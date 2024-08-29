@@ -48,8 +48,6 @@ const Tasks = ({
             <button className="upperCase" onClick={() => onUpperCase(task.id)}>CAPITALIZE</button>
             <button className="markAsDone" onClick={() => onMark(task.id)}>DONE</button>
          
-
-
             {editId === task.id 
                 ? (<button className="save" onClick={() => handleSave(task.id)}>SAVE</button>)
                 : (<button className="edit" onClick={() => setEditId(task.id)}>EDIT</button>)
