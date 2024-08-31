@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import SearchBox from './Search';
 import InfoBox from './InfoBox';
+import './GotApi.css'
 
 const GotApi = () => {
   const [name, setName] = useState('arya');
@@ -44,14 +45,14 @@ const GotApi = () => {
     if (fetchedData) {
       setData(fetchedData);
     }
-    setName('');
+    
   };
 
   
   return (
     <>
 
-      <h1>GAME OF THRONES</h1>
+      <img className='logo' src="./public/got/logo.jpg" alt="" />
       <SearchBox label={"Character Name"} name={name} setName={setName} handleSubmit={handleSubmit} />
 
       {error ? (<div>Error: {error}</div>) 

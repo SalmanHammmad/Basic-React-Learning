@@ -1,6 +1,7 @@
 import React from 'react';
 import './Search.css'
 
+
 const SearchBox = ({ label, handleSubmit, name, setName }) => {
   return (
     <>

@@ -31,7 +31,6 @@ const InfoBox = ({ info }) => {
         sx={{ height: 140 }}
         image={imagePath}
         title={name}
-        
       />
 
       <CardContent className='CardContents'>
