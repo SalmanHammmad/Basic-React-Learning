@@ -8,11 +8,14 @@ import Formz from './components/form/Form'
 import Todo from './components/todo/Todo'
 import Joke from './components/hooks/Joke'
 import Weather from './components/weatherApp/Weather'
+import GotApi from './components/quotes/GotApi'
 
 const App = () => {
   
   return (
       <>
+
+      
         {/* <ProductTab /> */}
         {/* <Button /> */}
         {/* <Formz />  */}
@@ -20,7 +23,10 @@ const App = () => {
         {/* <Ludo /> */}
         {/* <Todo/> */}
         {/* <Joke /> */}
-        <Weather />
+        {/* <Weather /> */}
+        {/* <GotApp/> */}
+        <GotApi/>
+        
       </>
       )
 }
